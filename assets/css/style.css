@@ -12,12 +12,15 @@
 .ui-menu-color-resume {
     background-color: purple;
 }
+
 .ui-menu-color-contact {
     background-color: blue;
 }
+
 .ui-menu-color-download {
     background-color: grey;
 }
+
 /* Heading */
 header {
     margin: 0;
@@ -51,9 +54,9 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -64,7 +67,49 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     padding: 0;
     font-size: 14px;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    text-decoration: none;
+    width: 100%; 
+    color: white;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*  Hover */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
