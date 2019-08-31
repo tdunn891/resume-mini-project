@@ -13,6 +13,9 @@
    background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+   background-color: purple;   
+}
 .ui-menu-color-home {
    background-color: #e67e22;
 }
@@ -48,7 +51,7 @@ header {
    float: none;
 }
 
-.section-heading {
+.section-heading, .history-heading {
    font-family: "Exo", sans-serif;
    font-weight: 300px;
    margin-top: 25px;
@@ -275,4 +278,11 @@ footer {
 
 .progress-section {
    margin: 40px 20px;
+}
+
+/*work history */
+
+.history-heading {
+   color: #fafafa;
+   margin-bottom: 50px;
 }
